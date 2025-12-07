@@ -13,7 +13,7 @@
     <section class="auth-section">
         <div class="auth-card">
             <h2>Login</h2>
-            <input class="input" type="email" placeholder="Email" style="margin-bottom: 15px;">
+            <input class="input" type="text" placeholder="Username" style="margin-bottom: 15px;">
             <input class="input" type="password" placeholder="Password">
             <a href="home.php" class="btn btn-primary btn-lg auth-btn">Login</a>
         </div>
