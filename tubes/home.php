@@ -12,10 +12,10 @@
 <body>
     <header class="navbar">
         <div class="navbar-left">
-            <a href="home.html" class="logo">🎬 ShowTix id</span></a>
+            <a href="home.php" class="logo">🎬 ShowTix id</span></a>
             <nav class="nav-links">
-                <a href="home.html">Now Showing</a>
-                <a href="comingsoon.html">Coming Soon</a>
+                <a href="home.php">Now Showing</a>
+                <a href="comingsoon.php">Coming Soon</a>
             </nav>
         </div>
 
@@ -23,7 +23,7 @@
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Cari film...">
             </div>
-            <a class="btn btn-outline" href="login.html">Login</a>
+            <a class="btn btn-outline" href="login.php">Login</a>
         </div>
     </header>
 
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             slider.innerHTML += `
                 <div class="slide-card">
-                    <a href="detail.html?id=${m.id}">
+                    <a href="detail.php?id=${m.id}">
                         <img src="${m.poster}" class="slide-poster">
                     </a>
                     <p class="slide-title">${m.title}</p>
@@ -218,3 +218,4 @@ setInterval(updateHero, 5000);
 
 </body>
 </html>
+
