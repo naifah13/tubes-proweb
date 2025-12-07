@@ -10,7 +10,7 @@
 
 <body>
     <header class="navbar">
-        <a class="logo" href="home.html">🎬 ShowTix id</a>
+        <a class="logo" href="home.php">🎬 ShowTix id</a>
     </header>
 
     <main class="page-wrapper" id="detailContainer">
@@ -96,7 +96,7 @@
                     <p class="detail-desc">${movie.desc}</p>
 
                     <div class="detail-actions">
-                        <a href="jadwal.html?id=${movie.id}" class="btn btn-primary">Pilih Jadwal</a>
+                        <a href="jadwal.php?id=${movie.id}" class="btn btn-primary">Pilih Jadwal</a>
                     </div>
                 </div>
 
@@ -113,3 +113,4 @@
 
 </body>
 </html>
+
