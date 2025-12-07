@@ -92,9 +92,10 @@ document.getElementById("checkoutBtn").onclick = () => {
         alert("Pilih kursi dulu yaa 🤍");
         return;
     }
-    location.href = `checkout.html?id=${id}&time=${time}&seats=${selectedSeats.join(",")}`;
+    location.href = `checkout.php?id=${id}&time=${time}&seats=${selectedSeats.join(",")}`;
 };
 </script>
 
 </body>
 </html>
+
