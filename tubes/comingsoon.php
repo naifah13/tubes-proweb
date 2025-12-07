@@ -11,10 +11,10 @@
 <body>
 <header class="navbar">
     <div class="navbar-left">
-        <a href="home.html" class="logo">🎬 ShowTix id</span></a>
+        <a href="home.php" class="logo">🎬 ShowTix id</span></a>
         <nav class="nav-links">
-            <a href="home.html">Now Showing</a>
-            <a class="active-nav" href="comingsoon.html">Coming Soon</a>
+            <a href="home.php">Now Showing</a>
+            <a class="active-nav" href="comingsoon.php">Coming Soon</a>
         </nav>
     </div>
 </header>
@@ -59,3 +59,4 @@ if (comingGrid) {
 
 </body>
 </html>
+
