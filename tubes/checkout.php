@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -68,4 +67,3 @@ document.getElementById("payNow").onclick = () => {
 
 </body>
 </html>
-
